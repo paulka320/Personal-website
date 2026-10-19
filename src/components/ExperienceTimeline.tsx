@@ -15,13 +15,13 @@ export const ExperienceTimeline: React.FC = () => {
         <div className="mb-14">
           <div className="text-xs font-mono text-emerald-400 tracking-wider uppercase mb-2 flex items-center gap-2">
             <GraduationCap className="w-4 h-4" />
-            <span>BACKGROUND & TECHNICAL JOURNEY (2025 - TO DATE)</span>
+            <span>BACKGROUND</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-            Experience, Education & Certifications
+            Experience & education
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-2 max-w-2xl leading-relaxed">
-            Active production engineering from <span className="text-white font-mono font-semibold">2025 - To date</span>. Covering cybersecurity audits, mobile app engineering, and software architecture.
+            Recent work in security, mobile apps, and software engineering.
           </p>
         </div>
 

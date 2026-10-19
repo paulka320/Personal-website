@@ -42,7 +42,7 @@ export const PERSONAL_INFO = {
   headlineAccent: 'resilient web architectures.',
   subheadline: 'Cybersecurity Specialist · Mobile Application Developer · Full-Stack Web',
   description:
-    'Dedicated to building defensive, fault-tolerant digital architectures across mobile and web platforms. Specializing in proactive vulnerability mitigation, native mobile security, and hardened cloud backends.',
+    'Building secure mobile and web applications.',
   phones: [
     { display: '0763480495', dial: '+256763480495', label: 'Primary Contact' },
     { display: '0741257369', dial: '+256741257369', label: 'Secondary / Direct' },
@@ -68,9 +68,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'sentinel-guard',
     title: 'SentinelGuard - Threat Surface Analyzer',
     category: 'cybersecurity',
-    subtitle: 'Automated vulnerability scanning & defensive posture assessment',
+    subtitle: 'Web security scanner',
     summary:
-      'A defensive security platform that conducts continuous web and network asset discovery, SSL/TLS posture auditing, OWASP security header verification, and automated vulnerability intelligence mapping.',
+      'Scans web assets for vulnerabilities, weak TLS settings, and missing security headers.',
     tags: ['Network Security', 'OWASP', 'Vulnerability Assessment', 'TypeScript', 'Node.js'],
     features: [
       'Automated HTTP security headers inspector (CSP, HSTS, X-Frame-Options)',
@@ -93,9 +93,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'shield-mobile-vault',
     title: 'ShieldMobile - Secure Vault & 2FA Authenticator',
     category: 'mobile',
-    subtitle: 'Cross-platform mobile application with biometric hardware encryption',
+    subtitle: 'Secure mobile vault',
     summary:
-      'A production-grade mobile security application for iOS and Android featuring biometric authentication (FaceID/Fingerprint), secure hardware Keystore/Keychain integration, and TOTP 2FA code generation.',
+      'Stores credentials securely with biometrics, device encryption, and two-factor codes.',
     tags: ['Mobile Development', 'React Native', 'iOS & Android', 'Biometrics', 'Hardware Keystore'],
     features: [
       'Biometric authentication enforcement with Secure Enclave hardware key generation',
@@ -118,9 +118,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'zerotrust-gateway',
     title: 'Zero-Trust API Gateway & RBAC Proxy',
     category: 'cybersecurity',
-    subtitle: 'Identity-aware microservice proxy with cryptographic verification',
+    subtitle: 'Zero-trust API gateway',
     summary:
-      'Engineered an edge authentication proxy enforcing granular role-based access control, cryptographic JWT signature validation, token revocation lists, and adaptive rate-limiting.',
+      'Protects APIs with role-based access, token checks, and rate limits.',
     tags: ['Zero Trust', 'Authentication', 'Cryptography', 'Express', 'Redis'],
     features: [
       'Sub-millisecond token verification with ephemeral session storage',
@@ -143,9 +143,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'pulse-mobile-guard',
     title: 'PulseMobile - Network Security & Threat Companion',
     category: 'mobile',
-    subtitle: 'Real-time WiFi security inspector and network scanner app',
+    subtitle: 'Mobile network checker',
     summary:
-      'Native mobile utility app enabling field technicians and security conscious users to audit local WiFi encryption, detect rogue access points, ARP spoofing, and insecure DNS resolvers.',
+      'Checks Wi-Fi security, connected devices, and DNS risks from a phone.',
     tags: ['Mobile Development', 'Flutter / Dart', 'Network Telemetry', 'WiFi Security', 'Mobile UX'],
     features: [
       'One-tap local subnet scanning identifying unauthorized connected devices',
@@ -168,9 +168,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'nexus-cloud-platform',
     title: 'Nexus Cloud Web Application',
     category: 'web',
-    subtitle: 'High-performance React 19 & TypeScript enterprise workspace',
+    subtitle: 'React workspace',
     summary:
-      'A full-stack, responsive web application built with modern component architecture, real-time optimistic state synchronization, strict type safety, and WCAG AA accessibility compliance.',
+      'Responsive React app with accessible forms and typed API integration.',
     tags: ['React 19', 'TypeScript', 'Tailwind CSS', 'Vite', 'RESTful APIs'],
     features: [
       'Instantaneous client-side navigation with responsive adaptive layout',
@@ -193,9 +193,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'secure-vault-web',
     title: 'Cryptographic SecureVault Web Client',
     category: 'web',
-    subtitle: 'End-to-end encrypted browser credential storage system',
+    subtitle: 'Encrypted browser vault',
     summary:
-      'Browser-based encrypted note and credential vault using the Web Cryptography API (SubtleCrypto) with client-side AES-GCM 256-bit encryption and PBKDF2 key derivation.',
+      'Encrypts notes and credentials in the browser; data stays on the device.',
     tags: ['Web Crypto API', 'AES-256', 'Client-Side Encryption', 'React', 'TypeScript'],
     features: [
       'Zero-knowledge architecture: plaintext never leaves user memory',

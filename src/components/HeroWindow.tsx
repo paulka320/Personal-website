@@ -68,31 +68,29 @@ export const HeroWindow: React.FC<HeroWindowProps> = ({
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-[1.12] text-balance">
-                  I engineer <span className="text-white">secure systems</span>,
-                  <br />
-                  mobile apps &{' '}
+                  I build secure apps and{' '}
                   <span className="font-editorial text-slate-200 font-normal italic pr-1 tracking-normal">
-                    resilient web.
+                    resilient systems.
                   </span>
                 </h1>
 
                 <p className="text-sm sm:text-base text-slate-300 mt-5 max-w-xl leading-relaxed">
-                  Active engineering from <span className="text-emerald-400 font-mono font-semibold">2025 - To date</span>. Delivering threat-resilient mobile applications for iOS and Android, hardened web architectures, and proactive security assessments.
+                  I work across cybersecurity, mobile apps, and web development.
                 </p>
 
                 {/* Quick Discipline Markers */}
                 <div className="mt-6 flex flex-wrap items-center gap-3 text-xs text-slate-300 font-mono">
                   <span className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg">
                     <Shield className="w-3.5 h-3.5 text-emerald-400" />
-                    Cybersecurity & Defense
+                    Security
                   </span>
                   <span className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg">
                     <Smartphone className="w-3.5 h-3.5 text-emerald-400" />
-                    Mobile App Engineering
+                    Mobile
                   </span>
                   <span className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg">
                     <Globe className="w-3.5 h-3.5 text-blue-400" />
-                    Full-Stack Web Systems
+                    Web
                   </span>
                 </div>
               </div>

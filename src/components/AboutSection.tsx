@@ -38,15 +38,15 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick }) =>
             </div>
 
             <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-              Engineering Resilient Software with a Defensive Mindset
+              Secure software, built thoughtfully
             </h2>
 
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              I am a Cybersecurity Specialist, Mobile Application Developer, and Software Engineer actively building and hardening digital infrastructure (<span className="text-emerald-400 font-mono font-semibold">2025 - To date</span>). In an era of automated exploit tools, applications must resist adversarial attack across both native mobile touchpoints and cloud backends.
+              I build secure mobile and web applications, with security considered from the start.
             </p>
 
             <p className="text-sm sm:text-base text-slate-400 leading-relaxed">
-              My hands-on practice encompasses native cross-platform mobile engineering (iOS & Android hardware keystore integration), proactive web vulnerability auditing, secure API gateways, and defensive system architecture.
+              My work includes mobile security, web audits, and API protection.
             </p>
 
             {/* Core Values Strip */}
@@ -57,7 +57,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick }) =>
                   <span>Defensive by Design</span>
                 </div>
                 <p className="text-xs text-slate-300">
-                  Defaulting to least privilege, hardware biometrics, input sanitization, and verified cryptographic signatures.
+                  Least privilege, safe inputs, and strong authentication.
                 </p>
               </div>
 
@@ -67,7 +67,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick }) =>
                   <span>Mobile & Cloud Engineering</span>
                 </div>
                 <p className="text-xs text-slate-300">
-                  Secure cross-platform mobile apps, strict type safety, and fault-tolerant cloud backends.
+                  Secure apps and dependable cloud services.
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick }) =>
                 onClick={onContactClick}
                 className="px-5 py-2.5 text-xs sm:text-sm font-semibold text-slate-900 bg-white hover:bg-slate-100 rounded-full transition-colors"
               >
-                Discuss a Project with Acou Paul
+                Discuss a project
               </button>
               <a
                 href={PERSONAL_INFO.whatsapp.url}

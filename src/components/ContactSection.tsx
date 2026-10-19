@@ -84,13 +84,13 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onToast }) => {
         <div className="mb-14">
           <div className="text-xs font-mono text-emerald-400 tracking-wider uppercase mb-2 flex items-center gap-2">
             <Mail className="w-4 h-4" />
-            <span>DIRECT CHANNELS & VERIFIED REACH</span>
+            <span>CONTACT</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-            Initiate Contact with Acou Paul
+            Get in touch
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-2 max-w-2xl leading-relaxed">
-            Reach out directly for cybersecurity consultations, mobile app engineering, full-stack web builds, or technical audits. Active: <span className="text-white font-mono font-medium">2025 - To date</span>.
+            Have a security, mobile, or web project? Send me a message.
           </p>
         </div>
 

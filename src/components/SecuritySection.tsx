@@ -41,10 +41,10 @@ export const SecuritySection: React.FC = () => {
             <span>CYBERSECURITY & DEFENSIVE ENGINEERING</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-            Defensive Architecture & Systems Hardening
+            Security by design
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-2 max-w-2xl leading-relaxed">
-            Security is not an afterthought added to finished software—it is an architectural discipline designed into every protocol, database query, mobile screen, and network boundary.
+            Practical security principles for the systems I build.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export const SecuritySection: React.FC = () => {
             <span>SYSTEM AUDIT & PROTECTION PRACTICES</span>
           </div>
           <h3 className="text-xl font-bold text-white mb-6">
-            Proactive Security Disciplines Practiced by Acou Paul
+            Security practices
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

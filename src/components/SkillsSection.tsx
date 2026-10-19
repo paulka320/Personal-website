@@ -18,10 +18,10 @@ export const SkillsSection: React.FC = () => {
             <span>TECHNICAL CAPABILITIES</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-            Skills & Engineering Tooling
+            Skills
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-2 max-w-2xl leading-relaxed">
-            A comprehensive matrix of technical disciplines spanning defensive cybersecurity protocols, production web frameworks, machine learning heuristics, and Linux environments.
+            Tools and technologies across security, mobile, web, and infrastructure.
           </p>
         </div>
 

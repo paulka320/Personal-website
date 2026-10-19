@@ -27,13 +27,13 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject, onContactCl
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
             <div className="text-xs font-mono text-emerald-400 tracking-wider uppercase mb-2">
-              PORTFOLIO & PROJECT DIRECTORY (2025 - TO DATE)
+              SELECTED WORK
             </div>
             <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-              Featured Projects & Direct Links
+              Projects
             </h2>
             <p className="text-sm sm:text-base text-slate-400 mt-2 max-w-xl">
-              Engineered repositories, native mobile applications, and defensive software with direct links and architecture specifications.
+              A selection of security, mobile, and web projects.
             </p>
           </div>
 
@@ -128,24 +128,9 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject, onContactCl
                   <h3 className="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
                     {project.title}
                   </h3>
-                  <p className="text-xs text-slate-400 mt-1 font-medium">
-                    {project.subtitle}
-                  </p>
-
-                  <p className="text-xs text-slate-300 mt-3 line-clamp-3 leading-relaxed">
+                  <p className="text-xs text-slate-300 mt-3 line-clamp-2 leading-relaxed">
                     {project.summary}
                   </p>
-
-                  {/* Security Consideration Excerpt */}
-                  <div className="mt-4 p-2.5 rounded-lg bg-white/[0.02] border border-white/5">
-                    <div className="text-[11px] font-mono text-emerald-400 flex items-center gap-1 mb-1">
-                      <Shield className="w-3 h-3" />
-                      <span>Security & Defense:</span>
-                    </div>
-                    <p className="text-xs text-slate-400 line-clamp-2">
-                      {project.securityHighlights[0]}
-                    </p>
-                  </div>
                 </div>
 
                 {/* Card Bottom: Tags, Direct Link, and Inspect Specs Action */}
