@@ -57,32 +57,11 @@ export const HeroWindow: React.FC<HeroWindowProps> = ({
   return (
     <section id="hero" className="relative pt-28 pb-16 sm:pt-36 sm:pb-24 overflow-hidden ambient-glow">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Dimensional OS Window Frame (Replicating User's Reference Aesthetic) */}
-        <div className="relative rounded-2xl window-glass overflow-hidden transition-all duration-300">
-          {/* OS Window Titlebar: Clean with only macOS traffic lights (No buttons) */}
-          <div className="flex items-center justify-between px-4 sm:px-6 py-3.5 window-titlebar select-none">
-            {/* macOS Traffic Lights */}
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-[#FF5F56] shadow-sm" />
-              <span className="w-3 h-3 rounded-full bg-[#FFBD2E] shadow-sm" />
-              <span className="w-3 h-3 rounded-full bg-[#27C93F] shadow-sm" />
-              <span className="ml-3 text-xs font-mono text-slate-400">
-                Acou Paul · Cybersecurity & Mobile Engineer (2025 - To date)
-              </span>
-            </div>
-
-            {/* Clean window right marker */}
-            <div className="flex items-center gap-2 text-xs font-mono text-slate-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-              <span className="hidden sm:inline">Active</span>
-            </div>
-          </div>
-
-          {/* Window Hero Content Area */}
-          <div className="px-6 py-12 sm:px-12 sm:py-16 md:py-20 flex flex-col justify-between min-h-[500px]">
+        <div className="relative">
+          <div className="py-12 sm:py-16 md:py-20 flex flex-col justify-between min-h-[500px]">
             {/* Top Grid: Headline + Prominent Big Picture Frame (size 30 x 30 scale) */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-              <div className="lg:col-span-7">
+              <div className="lg:col-span-8">
                 <div className="inline-flex items-center gap-2 mb-4 text-xs font-medium text-emerald-400 tracking-wide font-mono">
                   <Shield className="w-3.5 h-3.5" />
                   <span>CYBERSECURITY · MOBILE APPS · WEB SYSTEMS</span>
@@ -119,10 +98,10 @@ export const HeroWindow: React.FC<HeroWindowProps> = ({
               </div>
 
               {/* Prominent Large Photo Container for Acou Paul (size ~30 x 30rem / large frame) */}
-              <div className="lg:col-span-5 flex flex-col items-center justify-center">
+              <div className="lg:col-span-4 flex flex-col items-center justify-center">
                 <div className="relative group">
                   {/* Large Photo Frame */}
-                  <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-3xl overflow-hidden bg-gradient-to-b from-white/15 via-white/5 to-transparent p-1.5 border border-white/20 shadow-2xl shadow-black/80 relative">
+                  <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden bg-[#263554] p-1.5 border border-white/20 shadow-none relative">
                     {userPhoto ? (
                       <img
                         src={userPhoto}
@@ -130,7 +109,7 @@ export const HeroWindow: React.FC<HeroWindowProps> = ({
                         className="w-full h-full object-cover rounded-2xl"
                       />
                     ) : (
-                      <div className="w-full h-full rounded-2xl bg-[#0f1117] flex flex-col items-center justify-center text-center p-6 border border-dashed border-white/15">
+                      <div className="w-full h-full rounded-xl bg-[#202d50] flex flex-col items-center justify-center text-center p-6 border border-dashed border-white/15">
                         <div className="w-20 h-20 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-mono font-bold text-3xl mb-3 shadow-inner">
                           AP
                         </div>

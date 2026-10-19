@@ -97,11 +97,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick }) =>
               {/* Profile Card Header with Big Photo */}
               <div className="flex flex-col items-center sm:items-start pb-5 border-b border-white/10">
                 <div className="relative group mb-4">
-                  <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-3xl overflow-hidden bg-gradient-to-br from-emerald-500/20 to-blue-500/20 border border-white/15 p-1 relative shadow-xl">
+                  <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden bg-[#263554] border border-white/15 p-1 relative shadow-none">
                     {photo ? (
                       <img src={photo} alt="Acou Paul" className="w-full h-full object-cover rounded-2xl" />
                     ) : (
-                      <div className="w-full h-full rounded-2xl bg-[#14161F] flex flex-col items-center justify-center p-4">
+                      <div className="w-full h-full rounded-xl bg-[#202d50] flex flex-col items-center justify-center p-4">
                         <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center font-bold text-2xl text-emerald-400 font-mono mb-2">
                           AP
                         </div>

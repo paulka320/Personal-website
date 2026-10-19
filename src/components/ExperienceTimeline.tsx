@@ -37,7 +37,7 @@ export const ExperienceTimeline: React.FC = () => {
                 }`}
               >
                 {/* Center Node Indicator */}
-                <div className="absolute left-5 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#070709] border-2 border-emerald-400 z-10" />
+                <div className="absolute left-5 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#1d294b] border-2 border-emerald-400 z-10" />
 
                 {/* Content Box */}
                 <div className="w-full md:w-[45%] pl-12 md:pl-0">

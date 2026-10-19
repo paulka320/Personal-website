@@ -67,7 +67,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#070709] text-slate-100 flex flex-col selection:bg-emerald-500/20 selection:text-emerald-300">
+    <div className="min-h-screen bg-[#1d294b] text-slate-100 flex flex-col selection:bg-emerald-500/30 selection:text-white">
       {/* Top Navigation */}
       <Navbar
         activeSection={activeSection}

@@ -62,9 +62,9 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
         {/* Modal Window Header */}
         <div className="flex items-center justify-between px-6 py-4 window-titlebar border-b border-white/10">
           <div className="flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full bg-[#FF5F56]" />
-            <span className="w-3 h-3 rounded-full bg-[#FFBD2E]" />
-            <span className="w-3 h-3 rounded-full bg-[#27C93F]" />
+            <span className="w-2.5 h-2.5 rounded-full bg-slate-500" />
+            <span className="w-2.5 h-2.5 rounded-full bg-slate-500" />
+            <span className="w-2.5 h-2.5 rounded-full bg-slate-500" />
             <span className="ml-3 text-xs font-mono text-slate-400">
               acou-paul://projects/{project.id}
             </span>
